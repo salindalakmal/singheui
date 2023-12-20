@@ -16,10 +16,10 @@
     // browser-sync watched files
     // automatically reloads the page when files changed
     const browserSyncWatchFiles = [
-        paths.theme + 'assets/css/*.min.css',
-        paths.theme + 'assets/js/*.min.js',
-        paths.theme + 'assets/images/**/*.*',
-        paths.theme + '_html/*.html'
+        paths.theme + '**/assets/css/*.min.css',
+        paths.theme + '**/assets/js/*.min.js',
+        paths.theme + '**/assets/images/**/*.*',
+        paths.theme + '**/*.html'
     ];
 
     // browser-sync options
