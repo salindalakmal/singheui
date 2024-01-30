@@ -2,6 +2,7 @@
 _backups/
 _docs/
 _html/
+_dist/
 node_modules/
 npm-debug.log
 package-lock.json
