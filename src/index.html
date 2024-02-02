@@ -9,7 +9,13 @@
 <body>
     <div class="container py-4">
 
-        <button class="px-3 py-2 bg-teal-600 text-white rounded-md hover:bg-teal-800 transition duration-300">Button</button>
+        <button class="relative px-3 py-2 bg-teal-600 text-white rounded-md overflow-hidden after:content-[''] after:absolute after:left-0 after:top-0 after:bg-teal-800 after:w-full after:h-0 hover:after:h-full after:transition-all after:duration-300"><span class="relative z-10">Button</span></button>
+
+        <button class="relative px-3 py-2 bg-teal-600 text-white rounded-md overflow-hidden after:content-[''] after:absolute after:left-0 after:bottom-0 after:bg-teal-800 after:w-full after:h-0 hover:after:h-full after:transition-all after:duration-300"><span class="relative z-10">Button</span></button>
+
+        <button class="relative px-3 py-2 bg-teal-600 text-white rounded-md overflow-hidden after:content-[''] after:absolute after:left-0 after:top-0 after:bg-teal-800 after:w-0 after:h-full hover:after:w-full after:transition-all after:duration-300"><span class="relative z-10">Button</span></button>
+
+        <button class="relative px-3 py-2 bg-teal-600 text-white rounded-md overflow-hidden after:content-[''] after:absolute after:right-0 after:top-0 after:bg-teal-800 after:w-0 after:h-full hover:after:w-full after:transition-all after:duration-300"><span class="relative z-10">Button</span></button>
 
     </div>
 </body>
