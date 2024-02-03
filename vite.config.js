@@ -7,8 +7,8 @@ export default {
         rollupOptions: {
             input: {
                 main: path.resolve(__dirname, 'src/index.html'),
-                button: path.resolve(__dirname, 'src/button.html'),
-                grid: path.resolve(__dirname, 'src/grid.html'),
+                button: path.resolve(__dirname, 'src/button/index.html'),
+                grid: path.resolve(__dirname, 'src/grid/index.html'),
             },
         },
     },
