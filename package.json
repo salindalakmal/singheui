@@ -9,7 +9,8 @@
   },
   "author": "Salinda Lakmal",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build"
   },
   "license": "ISC",
   "dependencies": {
